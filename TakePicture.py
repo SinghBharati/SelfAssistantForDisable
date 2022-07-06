@@ -3,13 +3,13 @@ import os
 import time
 import uuid
 
-IMAGES_PATH= r'C:\Users\BHARATI SINGH\Downloads\GitCloneMinProjectSignLanguageDetection\RealTimeObjectDetection\Tensorflow\workspace\images\collectedimages'
+IMAGES_PATH='path to store collected images'
 
 labels=['hello','thanks','yes','no','iloveyou']
 number_imgs=15
 
 for label in labels:
-    mkdir= {r'C:\Users\BHARATI SINGH\Downloads\GitCloneMinProjectSignLanguageDetection\RealTimeObjectDetection\Tensorflow\workspace\images\collectedimages\\' + label}
+    mkdir= {'path to store collected images//' + label}
     cap=cv2.VideoCapture(0)
     print('Collecting Images for {}'.format(label))
     time.sleep(5)
