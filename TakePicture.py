@@ -5,7 +5,7 @@ import uuid
 
 IMAGES_PATH='path to store collected images'
 
-labels=['hello','thanks','yes','no','iloveyou']
+labels=['hello','thanks','yes','no','iloveyou', 'repeat', 'help', 'house', 'what', 'family', 'sorry']
 number_imgs=15
 
 for label in labels:
